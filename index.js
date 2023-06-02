@@ -43,10 +43,10 @@ const usersAge = () => {
         else if(ageResult > 40 && ageResult <= 50){
             age.textContent =  "You are " + ageResult + " years old. " + quotes[5]
         }
-        else if(ageResult > 60 && ageResult <= 70){
+        else if(ageResult > 50 && ageResult <= 60){
             age.textContent =  "You are " + ageResult + " years old. " + quotes[6]
         }
-        else if(ageResult > 70){
+        else if(ageResult > 60){
             age.textContent =  "You are " + ageResult + " years old. " + quotes[7]
         }
 
